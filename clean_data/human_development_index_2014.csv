@@ -195,7 +195,7 @@ Rank,Location,Human Development Index (HDI) ,Life expectancy at birth,Expected y
 ,Medium human development,0.63,68.6,11.8,6.2,"6,353",�
 ,Developing countries,0.66,69.8,11.7,6.8,"9,071",�
 ,Small island developing states,0.66,70.1,11.4,7.9,"6,991",�
-,North Korea,,70.3,,,,
+,North Korea,0.71,70.3,,,,
 ,Arab States,0.6859999999999999,70.6,12.0,6.4,"15,722",�
 ,World,0.711,71.5,12.2,7.9,"14,301",�
 ,Europe and Central Asia,0.748,72.3,13.6,10.0,"12,791",�
@@ -209,3 +209,6 @@ Rank,Location,Human Development Index (HDI) ,Life expectancy at birth,Expected y
 ,Nauru,,,9.3,,,
 ,San Marino,,,,,,
 ,Tuvalu,,,,,"5,278",
+,Puerto Rico,0.915,,,,,
+,Virgin Islands (U.S.),0.915,,,,,
+,Kosovo,0.733,,,,,
