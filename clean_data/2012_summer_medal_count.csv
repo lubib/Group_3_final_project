@@ -1,87 +1,87 @@
-Rank,NOC,Unnamed: 2,Gold,Silver,Bronze,Total
-1.0,United States,USA,46,28,30,104
-2.0,China,CHN,38,31,22,91
-3.0,United Kingdom,GBR,29,17,19,65
-4.0,Russia,RUS,20,20,28,68
-5.0,South Korea,KOR,13,9,8,30
-6.0,Germany,GER,11,20,13,44
-7.0,France,FRA,11,11,13,35
-8.0,Australia,AUS,8,15,12,35
-9.0,Italy,ITA,8,9,11,28
-10.0,Hungary,HUN,8,4,6,18
-11.0,Japan,JPN,7,14,17,38
-12.0,Iran,IRI,7,5,1,13
-13.0,Netherlands,NED,6,6,8,20
-14.0,New Zealand,NZL,6,2,5,13
-15.0,Ukraine,UKR,5,4,10,19
-16.0,Cuba,CUB,5,3,7,15
-17.0,Spain,ESP,4,10,4,18
-18.0,Jamaica,JAM,4,5,3,12
-19.0,Czech Republic,CZE,4,3,4,11
-20.0,South Africa,RSA,4,1,1,6
-21.0,North Korea,PRK,4,0,2,6
-22.0,Brazil,BRA,3,5,9,17
-23.0,Poland,POL,3,2,6,11
-24.0,Ethiopia,ETH,3,2,3,8
-25.0,Kazakhstan,KAZ,3,1,7,11
-26.0,Croatia,CRO,3,1,2,6
-27.0,Canada,CAN,2,5,11,18
-28.0,Belarus,BLR,2,5,3,10
-29.0,Romania,ROU,2,5,2,9
-30.0,Kenya,KEN,2,4,7,13
-31.0,Denmark,DEN,2,4,3,9
-32.0,Azerbaijan,AZE,2,2,5,9
-33.0,Switzerland,SUI,2,2,0,4
-34.0,Norway,NOR,2,1,1,4
-35.0,Lithuania,LTU,2,0,3,5
-36.0,Tunisia,TUN,2,0,1,3
-37.0,Sweden,SWE,1,4,3,8
-38.0,Colombia,COL,1,3,4,8
-,Mexico,MEX,1,3,4,8
-40.0,Georgia,GEO,1,2,3,6
-41.0,Ireland,IRL,1,1,4,6
-42.0,Argentina,ARG,1,1,2,4
-,Serbia,SRB,1,1,2,4
-,Slovenia,SLO,1,1,2,4
-,Trinidad and Tobago,TRI,1,1,2,4
-46.0,Turkey,TUR,1,1,1,3
-47.0,Dominican Republic,DOM,1,1,0,2
-48.0,Chinese Taipei,TPE,1,0,1,2
-,Latvia,LAT,1,0,1,2
-50.0,Algeria,ALG,1,0,0,1
-,Bahamas,BAH,1,0,0,1
-,Bahrain,BRN,1,0,0,1
-,Grenada,GRN,1,0,0,1
-,Uganda,UGA,1,0,0,1
-,Venezuela,VEN,1,0,0,1
-56.0,Egypt,EGY,0,3,1,4
-57.0,India,IND,0,2,4,6
-58.0,Mongolia,MGL,0,2,3,5
-59.0,Thailand,THA,0,2,2,4
-60.0,Bulgaria,BUL,0,2,1,3
-,Finland,FIN,0,2,1,3
-,Indonesia,INA,0,2,1,3
-63.0,Slovakia,SVK,0,1,3,4
-64.0,Belgium,BEL,0,1,2,3
-65.0,Armenia,ARM,0,1,1,2
-,Estonia,EST,0,1,1,2
-,Malaysia,MAS,0,1,1,2
-,Puerto Rico,PUR,0,1,1,2
-69.0,Botswana,BOT,0,1,0,1
-,Cyprus,CYP,0,1,0,1
-,Gabon,GAB,0,1,0,1
-,Guatemala,GUA,0,1,0,1
-,Montenegro,MNE,0,1,0,1
-,Portugal,POR,0,1,0,1
-75.0,Uzbekistan,UZB,0,0,3,3
-76.0,Greece,GRE,0,0,2,2
-,Qatar,QAT,0,0,2,2
-,Singapore,SIN,0,0,2,2
-79.0,Afghanistan,AFG,0,0,1,1
-,Cameroon,CMR,0,0,1,1
-,Hong Kong,HKG,0,0,1,1
-,Kuwait,KUW,0,0,1,1
-,Morocco,MAR,0,0,1,1
-,Saudi Arabia,KSA,0,0,1,1
-,Tajikistan,TJK,0,0,1,1
-,Vietnam,VIE,0,0,1,1
+country_name,gold,silver,bronze,total
+United States,46,28,30,104
+China,38,31,22,91
+United Kingdom,29,17,19,65
+Russia,20,20,28,68
+South Korea,13,9,8,30
+Germany,11,20,13,44
+France,11,11,13,35
+Australia,8,15,12,35
+Italy,8,9,11,28
+Hungary,8,4,6,18
+Japan,7,14,17,38
+Iran,7,5,1,13
+Netherlands,6,6,8,20
+New Zealand,6,2,5,13
+Ukraine,5,4,10,19
+Cuba,5,3,7,15
+Spain,4,10,4,18
+Jamaica,4,5,3,12
+Czech Republic,4,3,4,11
+South Africa,4,1,1,6
+North Korea,4,0,2,6
+Brazil,3,5,9,17
+Poland,3,2,6,11
+Ethiopia,3,2,3,8
+Kazakhstan,3,1,7,11
+Croatia,3,1,2,6
+Canada,2,5,11,18
+Belarus,2,5,3,10
+Romania,2,5,2,9
+Kenya,2,4,7,13
+Denmark,2,4,3,9
+Azerbaijan,2,2,5,9
+Switzerland,2,2,0,4
+Norway,2,1,1,4
+Lithuania,2,0,3,5
+Tunisia,2,0,1,3
+Sweden,1,4,3,8
+Colombia,1,3,4,8
+Mexico,1,3,4,8
+Georgia,1,2,3,6
+Ireland,1,1,4,6
+Argentina,1,1,2,4
+Serbia,1,1,2,4
+Slovenia,1,1,2,4
+Trinidad and Tobago,1,1,2,4
+Turkey,1,1,1,3
+Dominican Republic,1,1,0,2
+Chinese Taipei,1,0,1,2
+Latvia,1,0,1,2
+Algeria,1,0,0,1
+Bahamas,1,0,0,1
+Bahrain,1,0,0,1
+Grenada,1,0,0,1
+Uganda,1,0,0,1
+Venezuela,1,0,0,1
+Egypt,0,3,1,4
+India,0,2,4,6
+Mongolia,0,2,3,5
+Thailand,0,2,2,4
+Bulgaria,0,2,1,3
+Finland,0,2,1,3
+Indonesia,0,2,1,3
+Slovakia,0,1,3,4
+Belgium,0,1,2,3
+Armenia,0,1,1,2
+Estonia,0,1,1,2
+Malaysia,0,1,1,2
+Puerto Rico,0,1,1,2
+Botswana,0,1,0,1
+Cyprus,0,1,0,1
+Gabon,0,1,0,1
+Guatemala,0,1,0,1
+Montenegro,0,1,0,1
+Portugal,0,1,0,1
+Uzbekistan,0,0,3,3
+Greece,0,0,2,2
+Qatar,0,0,2,2
+Singapore,0,0,2,2
+Afghanistan,0,0,1,1
+Cameroon,0,0,1,1
+Hong Kong,0,0,1,1
+Kuwait,0,0,1,1
+Morocco,0,0,1,1
+Saudi Arabia,0,0,1,1
+Tajikistan,0,0,1,1
+Vietnam,0,0,1,1

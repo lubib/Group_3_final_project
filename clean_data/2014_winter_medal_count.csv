@@ -1,27 +1,27 @@
-Rank,NOC,Unnamed: 2,Gold,Silver,Bronze,Total
-1.0,Norway,NOR,11,5,11,27
-2.0,Russia,RUS,10,10,9,29
-3.0,Canada,CAN,10,10,5,25
-4.0,United States,USA,9,9,10,28
-5.0,Netherlands,NED,8,7,9,24
-6.0,Germany,GER,8,6,5,19
-7.0,Switzerland,SUI,7,2,2,11
-8.0,Belarus,BLR,5,0,1,6
-9.0,Austria,AUT,4,8,5,17
-10.0,France,FRA,4,4,7,15
-11.0,Poland,POL,4,1,1,6
-12.0,China,CHN,3,4,2,9
-13.0,South Korea,KOR,3,3,2,8
-14.0,Sweden,SWE,2,7,6,15
-15.0,Czech Republic,CZE,2,4,2,8
-16.0,Slovenia,SLO,2,2,4,8
-17.0,Japan,JPN,1,4,3,8
-18.0,Finland,FIN,1,3,1,5
-19.0,United Kingdom,GBR,1,1,3,5
-,Latvia,LAT,1,1,3,5
-21.0,Ukraine,UKR,1,0,1,2
-22.0,Slovakia,SVK,1,0,0,1
-23.0,Italy,ITA,0,2,6,8
-24.0,Australia,AUS,0,2,1,3
-25.0,Croatia,CRO,0,1,0,1
-26.0,Kazakhstan,KAZ,0,0,1,1
+country_name,gold,silver,bronze,total
+Norway,11,5,11,27
+Russia,10,10,9,29
+Canada,10,10,5,25
+United States,9,9,10,28
+Netherlands,8,7,9,24
+Germany,8,6,5,19
+Switzerland,7,2,2,11
+Belarus,5,0,1,6
+Austria,4,8,5,17
+France,4,4,7,15
+Poland,4,1,1,6
+China,3,4,2,9
+South Korea,3,3,2,8
+Sweden,2,7,6,15
+Czech Republic,2,4,2,8
+Slovenia,2,2,4,8
+Japan,1,4,3,8
+Finland,1,3,1,5
+United Kingdom,1,1,3,5
+Latvia,1,1,3,5
+Ukraine,1,0,1,2
+Slovakia,1,0,0,1
+Italy,0,2,6,8
+Australia,0,2,1,3
+Croatia,0,1,0,1
+Kazakhstan,0,0,1,1
