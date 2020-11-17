@@ -1,0 +1,59 @@
+#  First create a database called "OlympicsDB", then create the tables with the commands below.
+#  After creating the tables, run the code in "loading_data_into_sql.ipynb" to load the data into the tables.
+#  After importing the data, run the second set of commands below to create the merged table for the analysis and machine learning model.
+
+population
+--
+country_name VARCHAR PK
+population INT
+
+gdp_per_capita
+--
+country_name VARCHAR PK
+gdp_per_capita FLOAT
+
+hdi
+--
+country_name VARCHAR PK
+human_development_index FLOAT
+
+gii
+--
+country_name VARCHAR PK
+gender_inequality_index FLOAT
+
+cpi
+--
+country_name VARCHAR PK
+corruption_perceptions_index FLOAT 
+
+winter_medals
+--
+country_name VARCHAR PK
+gold INT 
+silver INT 
+bronze INT 
+total INT 
+
+summer_medals
+--
+country_name VARCHAR PK
+gold INT 
+silver INT 
+bronze INT 
+total INT 
+
+combined_medals
+--
+country_name VARCHAR PK
+total INT 
+
+combined_info
+--
+country_name VARCHAR PK
+population INT 
+gdp_per_capita FLOAT 
+human_development_index FLOAT 
+gender_inequality_index FLOAT 
+corruption_perceptions_index FLOAT 
+total INT 
