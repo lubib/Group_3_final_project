@@ -76,8 +76,8 @@ To set up the database in Postgres, the following steps need to be taken:
 - To create a complete and useable dataset for the machine learning model, during preprocessing the 7 demographic/index and medal datasets were combined with SQL and any rows with null values were removed.
 - The preliminary features for the model were selected based on the theory that we wanted to test: whether the number of medals that a country wins can be predicted by the demographics and economic conditions/indicators for that country. Specifically, the following features were selected: population, gdp_per_capita, human_development_index, gender_inequality_index, & corruption_perceptions_index.
 - The Random Forest Regression model was selected because we needed to predict the number of medals as a total value, as opposed to one of two values with a classifier model. Like a linear regression model, a benefit of the Random Forest Regression is that it shows the relationship between the features and the target. Additionally, by combining multiple weak learners to form a strong learner, this model develops more accurate results with lower variance by averaging the predictions of the trees. A limitation of this model is that it doesn’t predict beyond the range in the training data.
-- We have used the ‘train_test_split’ to split the data in 75:25 ratio i.e. 75% of the data will be used for training the model and 25% will be used for testing the model that is built out of it.
-- The performance of the Random Forest Regression model was compared to linear and non-linear regression models.
+- The ‘train_test_split’ was used to split the data in 75:25 ratio i.e. 75% of the data will be used for training the model and 25% will be used for testing the model.
+- The performance of the Random Forest Regression model was compared to Logistic Regression and Deep Learning models.
 
 ### Presentation Draft
 - Selected topic - Precious Metal (aka Olympic Medals)
