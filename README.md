@@ -57,7 +57,7 @@ The demographic/index data was selected when deciding on the theoretical basis f
 Upon looking into the datasets, we realized that there were several issues that made them difficult to use. To remedy this, the code within the data_cleaning.ipynb file was used to:
 1. Set the country names to a common name within all of the data sources.
 2. Remove the blank space character from the front of all country names in the GII dataset and at the end of all countries in the Olympic medal datasets.
-3. Set the population of Eritria to the last known value (2011).
+3. Set the population of Eritrea to the last known value (2011).
 4. Used external sources to fill in the GDP per capita for Syria and North Korea.
 5. Filled in missing GII values using logic in the following order of available data: using average of 2013 and 2015 values to fill in 2014 value; using 2015 data; using 2012 data; using last available value.
 6. Added the following countries/territories to the datasets where they were missing, along with most reasonable value estimates: Puerto Rico, US Virgin Islands, North Korea, Kosovo.
