@@ -1,4 +1,4 @@
-#### Precious Medal Dashboard
+# Precious Medal Dashboard
 
 ### Tools to be used 
 for this dashboard, we will be using tableau to create an interactive dashboard in order for easier convey of data to the end user
