@@ -3,7 +3,7 @@
 
 ### Technology Selection
 
-- Languages: Python, JavaScript, SQL
+- Languages: Python, JavaScript, HTML, SQL
 - Technologies: Tableau, PostgreSQL, PgAdmin
 - Tools: Jupyter Notebook
 
