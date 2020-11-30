@@ -105,6 +105,6 @@ Since the opening of the first modern Olympic Games in 1896, the international s
 
 ### Dashboard and Google Slides
 
-[google slides]: (https://docs.google.com/presentation/d/14y4Lvk1pmtc8OTdNtIsPLjCLNAikkeURze1wMbV6xWk/edit?usp=sharing)
+[google slides](https://docs.google.com/presentation/d/14y4Lvk1pmtc8OTdNtIsPLjCLNAikkeURze1wMbV6xWk/edit?usp=sharing)
 
-[Tableau Story]: (https://public.tableau.com/views/PreciousMedal/PreciousMedal?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+[Tableau Story](https://public.tableau.com/views/PreciousMedal/PreciousMedal?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
