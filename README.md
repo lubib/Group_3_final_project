@@ -1,9 +1,11 @@
 # Group_3_final_project
 
 
-### Description of the communication protocols:
+### Technology Selection
 
-We primaraly use Zoom meetings to discuss the project. We have scheduled 3 weekly mettings over Zoom as well as created a group chat on Slack to share thoughts and questions that either team member might have in between the meetings. 
+- Languages: Python, JavaScript, SQL
+- Technologies: Tableau, PostgreSQL, PgAdmin
+- Tools: Jupyter Notebook
 
 ### Source of data:
 
@@ -78,6 +80,12 @@ To set up the database in Postgres, the following steps need to be taken:
 - The Random Forest Regression model was selected because we needed to predict the number of medals as a total value, as opposed to one of two values with a classifier model. Like a linear regression model, a benefit of the Random Forest Regression is that it shows the relationship between the features and the target. Additionally, by combining multiple weak learners to form a strong learner, this model develops more accurate results with lower variance by averaging the predictions of the trees. A limitation of this model is that it doesn’t predict beyond the range in the training data.
 - The ‘train_test_split’ was used to split the data in 75:25 ratio i.e. 75% of the data will be used for training the model and 25% will be used for testing the model.
 - The performance of the Random Forest Regression model was compared to Logistic Regression and Deep Learning models.
+
+Optimization: 
+- While working to optimize the model, we discovered that using total GDP in place of GDP per capita greatly increased the predictive ability of the Random Forest Regression model.
+- gdp_total was added to the model by multiplying population by gdp_per_capita; population and gdp_per_capita were dropped from the features during model training as this increased model performance.
+- The complement of the gender_inequality_index was used instead of the original gender_inequality_index values (the compliment values are incremental with higher gender equality); this increased model performance.
+
 
 ### Presentation Draft
 - Selected topic - Precious Metal (aka Olympic Medals)
