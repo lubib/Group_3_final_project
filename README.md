@@ -75,6 +75,7 @@ To set up the database in Postgres, the following steps need to be taken:
 5. Run the second set of commands from database_creation.sql
 
 ### Machine Learning Model
+Initial Model: 
 - To create a complete and useable dataset for the machine learning model, during preprocessing the 7 demographic/index and medal datasets were combined with SQL and any rows with null values were removed.
 - The preliminary features for the model were selected based on the theory that we wanted to test: whether the number of medals that a country wins can be predicted by the demographics and economic conditions/indicators for that country. Specifically, the following features were selected: population, gdp_per_capita, human_development_index, gender_inequality_index, & corruption_perceptions_index.
 - The Random Forest Regression model was selected because we needed to predict the number of medals as a total value, as opposed to one of two values with a classifier model. Like a linear regression model, a benefit of the Random Forest Regression is that it shows the relationship between the features and the target. Additionally, by combining multiple weak learners to form a strong learner, this model develops more accurate results with lower variance by averaging the predictions of the trees. A limitation of this model is that it doesn’t predict beyond the range in the training data.
@@ -85,7 +86,14 @@ Optimization:
 - While working to optimize the model, we discovered that using total GDP in place of GDP per capita greatly increased the predictive ability of the Random Forest Regression model.
 - gdp_total was added to the model by multiplying population by gdp_per_capita; population and gdp_per_capita were dropped from the features during model training as this increased model performance.
 - The complement of the gender_inequality_index was used instead of the original gender_inequality_index values (the compliment values are incremental with higher gender equality); this increased model performance.
+- The predictive ability of the model, measured as R^2, increased from -0.115 to 0.492. (Note: a negative R^2 value means that our model predicted results worse than just predicting the average medal count for each country.)
 
+Second Model: 
+- An issue that the initial model was running into was that many countries don't have medals, but the model would predict those countries winning several medals.
+- A different angle was taken to predict the medal count: predicting the range of medals that a country won. A Deep Learning model was used to predict categorical outcomes.
+- The medals were bucketed into 6 bins, and one-hot encoded into an array.
+- The model uses 3 layers of ReLu functions and a Softmax activation function on the output to predict which of the 6 medal bins the country's medal count falls into.
+- The evaluation metric for this model was accuracy; the model predicted 57.5% of medal ranges correctly. 
 
 ### Presentation Draft
 - Selected topic - Precious Metal (aka Olympic Medals)
