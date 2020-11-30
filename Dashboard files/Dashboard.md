@@ -1,4 +1,4 @@
-#Precious Medal Dashboard
+#### Precious Medal Dashboard
 
 ### Tools to be used 
 for this dashboard, we will be using tableau to create an interactive dashboard in order for easier convey of data to the end user
@@ -29,4 +29,5 @@ in this chart we show how our random forest regression prediction measured up to
 
 ## Website 
 we have chosen to house our tableau report onto a website please see below 
+
 [Precious Medal](https://k2handa.github.io/PreciousMedal.github.io/)
