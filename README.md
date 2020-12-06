@@ -79,6 +79,8 @@ To set up the database in Postgres, the following steps need to be taken:
 4. Run the code in loading_data_into_sql.ipynb
 5. Run the second set of commands from database_creation.sql
 
+<img width="814" alt="ERD_Schemas" src="https://user-images.githubusercontent.com/67556541/101271846-9f0ad580-3754-11eb-958b-06b7a79344b9.png">
+
 ### Machine Learning Model
 Initial Model: 
 - To create a complete and useable dataset for the machine learning model, during preprocessing the 7 demographic/index and medal datasets were combined with SQL and any rows with null values were removed.
@@ -92,6 +94,8 @@ Optimization:
 - gdp_total was added to the model by multiplying population by gdp_per_capita; population and gdp_per_capita were dropped from the features during model training as this increased model performance.
 - The complement of the gender_inequality_index was used instead of the original gender_inequality_index values (the compliment values are incremental with higher gender equality); this increased model performance.
 - The predictive ability of the model, measured as R^2, increased from -0.115 to 0.492. (Note: a negative R^2 value means that our model predicted results worse than just predicting the average medal count for each country.)
+
+<img width="1345" alt="Screen Shot 2020-12-05 at 10 45 08 PM" src="https://user-images.githubusercontent.com/67556541/101271722-71715c80-3753-11eb-846f-0c1f94ee83f2.png">
 
 Second Model: 
 - An issue that the initial model was running into was that many countries don't have medals, but the model would predict those countries winning several medals.
