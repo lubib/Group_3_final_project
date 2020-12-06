@@ -1,5 +1,10 @@
 # Group_3_final_project
+## Selected topic - Precious Metal (aka Olympic Medals)
 
+- Reason the topic was selected - 
+Since the opening of the first modern Olympic Games in 1896, the international sports competition has only been canceled three times: once during World War I (1916) and twice during World War II (1940, 1944). Until this year. Because of the COVID-19 outbreak the 2020 Olympic Games have been postponed by a year. In anticipation of the Olympic games we decided to try and make a prediction for the games in the future.  
+
+- A question we hope to answer with the data is whether the amount of medals that a country wins can be predicted by the demographics and economic conditions in that country. 
 
 ### Technology Selection
 
@@ -95,13 +100,6 @@ Second Model:
 - The model uses 3 layers of ReLu functions and a Softmax activation function on the output to predict which of the 6 medal bins the country's medal count falls into.
 - The evaluation metric for this model was accuracy; the model predicted 57.5% of medal ranges correctly. 
 
-### Presentation Draft
-- Selected topic - Precious Metal (aka Olympic Medals)
-
-- Reason the topic was selected - 
-Since the opening of the first modern Olympic Games in 1896, the international sports competition has only been canceled three times: once during World War I (1916) and twice during World War II (1940, 1944). Until this year. Because of the COVID-19 outbreak the 2020 Olympic Games have been postponed by a year. In anticipation of the Olympic games we decided to try and make a prediction for the games in the future.  
-
-- A question we hope to answer with the data is whether the amount of medals that a country wins can be predicted by the demographics and economic conditions in that country. 
 
 ### Dashboard and Google Slides
 
