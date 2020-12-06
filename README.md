@@ -104,6 +104,12 @@ Second Model:
 - The model uses 3 layers of ReLu functions and a Softmax activation function on the output to predict which of the 6 medal bins the country's medal count falls into.
 - The evaluation metric for this model was accuracy; the model predicted 57.5% of medal ranges correctly. 
 
+### Summary:
+
+Overall, demographic data and economic indexes do not predict Olympic medals well, though they do have positive correlation.
+
+Even thought we were not able to achive the 90% accuracy we wanted we were able to increase the accuracy from -17.4% to 57.5%.
+
 
 ### Dashboard and Google Slides
 
