@@ -116,3 +116,5 @@ Even thought we were not able to achive the 90% accuracy we wanted we were able 
 [google slides](https://docs.google.com/presentation/d/14y4Lvk1pmtc8OTdNtIsPLjCLNAikkeURze1wMbV6xWk/edit?usp=sharing)
 
 [Tableau Story](https://public.tableau.com/views/PreciousMedal/PreciousMedal?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
+[Precious Medals](https://k2handa.github.io/PreciousMedal.github.io/)
